@@ -36,7 +36,7 @@ Cloud Hypervisor is implemented in [Rust](https://www.rust-lang.org/) and is bas
 
 ### High Level
 
-- KVM based
+- KVM based Only KVM
 - Minimal emulation
 - Low latency
 - Low memory footprint
@@ -50,10 +50,6 @@ Cloud Hypervisor is implemented in [Rust](https://www.rust-lang.org/) and is bas
 ### Architectures
 
 Cloud Hypervisor supports the `x86-64` and `AArch64` architecture. There are some small differences in functionality between the two architecture (see #1125).
-
-### Guest OS
-
-Cloud Hypervisor supports `64-bit Linux` with support for _modern_ 64-bit Windows guests currently under development.
 
 # 2. Getting Started
 
